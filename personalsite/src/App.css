@@ -49,10 +49,11 @@
 .homepageCard {
   margin-top: 8%;
   margin-left: 20%;
-  position: fixed;
+  position: fixed !important;
   width: 30vw;
   height: 50vh;
-  opacity: .8;
+  opacity: .5;
+  padding: 10px;
 }
 
 .navBar {
