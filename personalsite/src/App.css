@@ -1,0 +1,79 @@
+
+
+@keyframes test {
+  from { height: 500px}
+  to { height: 100px}
+}
+
+.allCards {
+  margin: 20px;
+}
+
+/* .animatedCard { */
+  /* animation-name: test; */
+  /* animation-duration: 3s; */
+  /* height:100px; */
+/* } */
+
+.homepage {
+  background-image: url('./images/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center;
+  /* position: absolute */
+}
+
+.carouselImg {
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+
+}
+
+@media only screen and (min-width: 992px){
+  .carouselImg {
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+  }
+}
+
+.carousel-item > img {
+  /* width: 100% */
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.homepageCard {
+  margin-top: 8%;
+  margin-left: 20%;
+  position: fixed;
+  width: 30vw;
+  height: 50vh;
+  opacity: .8;
+}
+
+.navBar {
+  background-color: rgb(5, 5, 39);
+ letter-spacing: 1px;
+  font-weight: 700
+}
+
+.navItem {
+  display: flex;
+}
+
+.navItems {
+  display: flex;
+
+}
+
+.navLinks {
+  color: rgb(228, 210, 210);
+}
+
+.workImg {
+  padding-bottom: 20px;
+}
