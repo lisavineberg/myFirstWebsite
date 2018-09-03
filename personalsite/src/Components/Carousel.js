@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
 import { Carousel, CarouselItem, CarouselControl, CarouselIndicators } from 'reactstrap';
 import bertha from '../images/bertha.jpg';
+import brain from '../images/brain.jpg'
 import calvinHobbes from '../images/calvinHobbes.jpg';
+import dragon from '../images/dragon.jpg';
 import owl from '../images/owl.jpg';
+import rickMorty from '../images/rickMorty.jpg';
 import sunflower from '../images/sunflower.jpg';
+import wacko from '../images/wacko.jpg';
 import zodiac from '../images/zodiac.jpg';
 import { Tooltip } from 'reactstrap';
 
@@ -12,7 +16,11 @@ var items = [
     { src: calvinHobbes, altText: 'calvin and hobbes', desc: 'c&h' },
     { src: owl, altText: 'owl', desc: 'blanket1' },
     { src: sunflower, altText: 'sunflower', desc: 'sunflower' },
-    { src: zodiac, altText: 'zodiac', desc: 'blanket2' }
+    { src: zodiac, altText: 'zodiac', desc: 'blanket2' },
+    { src: wacko, altText: 'wacko', desc: 'wacko'},
+    { src: rickMorty, altText: 'rick and morty', desc: 'r&m'},
+    { src: brain, altText: 'brain', desc: 'brain'},
+    { src: dragon, altText: 'dragon', desc: 'dragon'}
 ]
 
 
@@ -78,7 +86,7 @@ class MyCarousel extends Component {
                     >
 
                     <img className='carouselImg' src={item.src} alt={item.altText} id='tooltipHover' />
-                    <Tooltip placement='right' isOpen={this.state.tooltipOpen} toggle={this.toggle} target='tooltipHover'>{item.desc}</Tooltip>
+                    {/* <Tooltip placement='right' isOpen={this.state.tooltipOpen} toggle={this.toggle} target='tooltipHover'>{item.desc}</Tooltip> */}
                 </CarouselItem>
                 
                 

@@ -6,7 +6,19 @@
 }
 
 .allCards {
+  /* margin: 40px; */
+  /* background-color:  rgb(238, 228, 228); */
+  padding: 40px;
+  /* display: flex; */
+}
+
+.allSchoolCards {
   margin: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
 }
 
 /* .animatedCard { */
@@ -21,7 +33,6 @@
   background-repeat: no-repeat;
   height: 100vh;
   background-position: center;
-  /* position: absolute */
 }
 
 .carouselImg {
@@ -56,10 +67,14 @@
   padding: 10px;
 }
 
+.myCarousel {
+  padding: 10px;
+}
+
 .navBar {
   background-color: rgb(5, 5, 39);
  letter-spacing: 1px;
-  font-weight: 700
+  font-weight: 700;
 }
 
 .navItem {
@@ -73,6 +88,26 @@
 
 .navLinks {
   color: rgb(228, 210, 210);
+}
+
+.schoolDiv {
+  border-style: ridge;
+  height: 80vh;
+  width: 25vw;
+}
+
+.schoolImg {
+  padding: 15px;
+  width: inherit;
+  
+}
+
+.volunteerStuff{
+  display: flex;
+}
+
+.volunteerText {
+  padding: 20px;
 }
 
 .workImg {

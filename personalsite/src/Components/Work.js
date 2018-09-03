@@ -67,7 +67,7 @@ class Work extends Component {
 
                         {
                             (this.state.forwardTwo) ?
-                                <CardBody>
+                                <CardBody >
                                     <CardImg src={logoBM} />
                                     <CardTitle>Bier Markt Montreal</CardTitle>
                                     <CardText>Trainer/Team Captain</CardText>
