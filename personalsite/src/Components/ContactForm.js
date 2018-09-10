@@ -38,7 +38,7 @@ class ContactForm extends Component {
             <form onSubmit={this.handleSubmit}>
                 <input type='text' value={this.state.inputName} placeholder='Your name' onChange={this.handleNameChange} />
                <br />
-                <input type='text' value={this.state.inputMsg} placeholder='Your message' onChange={this.handleMsgChange} />
+                <input type='text' className='message-input' value={this.state.inputMsg} placeholder='Your message' onChange={this.handleMsgChange} />
                 <br />
                 <input type='submit' value='Submit' />
             </form> :
